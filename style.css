@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+        /* HEADER SECTION */
+.header{
+    background-image: url(images/donation13.jpg);
+    text-align: center;
+    width:100%;
+    height: 650px;;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+.orange-btn{
+    color:white;
+   
+    background-color:#fd2f0a;
+    font-size:20px;
+    font-weight:700;
+    padding: 14px 30px;
+    margin-top:30px;
+    border: 0;
+    border-radius: 5px;
+
+}
+#second-btn{
+    text-align:center;
+    
+}
+hr{
+    width:60%;
+    margin:0 auto;
+}
+.header-title{
+    font-size:60px;
+    font-weight:600;
+    color:white;
+    padding-top: 200px;
+}
+.header-description{
+    color:rgba(255, 255, 255, 0.897);
+    font-size:20px;
+    font-weight: 200;
+    padding-top:15px;
+}
+
+        /*............... header section END.............*/
+
+
+        /* DONATE SECTION */
+
+.donate-title{
+    text-align:center;
+    margin-top:70px;
+    font-size:70px ;
+    font-size:50px;
+    font-weight: 600;
+}
+
+.title-description{
+    color:rgb(122, 121, 121);
+    text-align:center;
+    margin-bottom: 20px;
+    font-size:20px;
+    font-weight: 200;
+    padding-top:15px;
+}
+
+.donate-container{
+    display:flex;
+    justify-content:space-around;
+    margin: 30px 300px;
+    
+}
+
+.donate-box{
+    color: #535050;
+    background: #f3efee;
+    width:100px;
+    height: 60px;
+    padding-top:30px;
+    text-align: center;
+}
+#extra-beauty{
+    color:red;
+    border:#fd2f0a;
+    background-color: red;
+    color: white;
+
+    
+}
+
+.other-amount{
+    color:rgb(122, 121, 121);
+    text-align:center;
+    margin-bottom: 10px;
+    font-size:20px;
+    font-weight: 100;
+    padding-top:15px;
+}
+
+
+
+
+/* ...................FOOD BOX SECTION.................. */
+
+.food-container{
+    display:flex;
+    justify-content:space-around;
+    margin:60px 200px;
+}
+
+.food-box1{
+    height:300px;
+    width:300px;
+    background-color: #0a57fd18;
+    margin: 10px;
+
+}
+.food-box2{
+    height:300px;
+    width:300px;
+    background-color: #fd260a17;
+    margin: 10px;
+
+}
+.food-box3{
+    height:300px;
+    width:300px;
+    background-color: #eed60218;
+    margin: 10px;
+
+}
+.food-title{
+    padding-left:30px;
+    padding-bottom: 15px;
+    font-size:20px;
+    font-weight:700;
+}
+.food-description{
+    padding-left:30px;
+}
+.food-img{
+    padding-top:20px;
+    padding-bottom:30px;
+    display:flex;
+    justify-content: center;
+}
+
+
+#image-container-main{
+    display:flex ;
+    justify-content:space-between;
+
+}
