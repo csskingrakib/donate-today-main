@@ -224,3 +224,27 @@ hr{
     padding-top:5px;   
     color: #bebbbb;
 }
+
+.hide{
+    display: none;
+}
+
+
+/* MAKE RESPONSIVE................... */
+
+@media screen and (max-width:576px) {
+
+  .donate-container{
+            flex-direction:column;
+            align-content: flex-start;
+            margin:0 35vw;
+  .donate-box{
+    margin:10px;
+  }
+
+  .title-description{
+    margin:0 30px;
+  
+  }    
+
+}
