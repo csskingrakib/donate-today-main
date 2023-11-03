@@ -65,7 +65,7 @@ hr{
 .title-description{
     color:rgb(122, 121, 121);
     text-align:center;
-    margin-bottom: 20px;
+    margin-bottom:20px;
     font-size:20px;
     font-weight: 200;
     padding-top:15px;
@@ -243,8 +243,8 @@ hr{
   }
 
   .title-description{
-    margin-left:30px;
-    margin-right:30px;  
+   margin-left:30px;
+   margin-right:30px;  
     
   }    
 
@@ -256,5 +256,8 @@ hr{
 }
 
 @media screen and (min-width:577px) and (max-width:992px){
+ .food-container{
+    flex-direction:colum;
+ }
     
 }
