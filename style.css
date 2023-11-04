@@ -114,6 +114,7 @@ hr{
     display:flex;
     justify-content:space-around;
     margin:60px 200px;
+    
 }
 
 .food-box1{
@@ -228,36 +229,63 @@ hr{
 .hide{
     display: none;
 }
-
+/* 
 
 /* MAKE RESPONSIVE................... */
+/* @media (max-width: 768px) {
+    .food-container {
+      flex-direction: column;
+    }
+  } */
+  
 
-@media screen and (max-width:576px) {
+ @media (max-width:576px) {
 
+
+    /* for HEADER SECITION */
+
+   .header-title{
+    font-size:40px;
+    font-weight:600;
+    margin-top: -60px;
+  }
   .donate-container{
             flex-direction:column;
             align-content: flex-start;
             margin:0 35vw;
+  }
   .donate-box{
     margin:10px;
+    gap:10px;
   }
 
+  .donate-title{
+    font-size:40px;
+  }
+  .header-description{
+    margin: 0 20px;
+  }
   .title-description{
    margin-left:30px;
    margin-right:30px;  
     
   }    
 
-  /* food conntain box responsive */
-
   .food-container{
-    flex-direction:column;
+    flex-direction: column;
   }
+    
+  .image-container-main{
+    flex-direction:column-reverse;
+  }
+
+  
 }
 
-@media screen and (min-width:577px) and (max-width:992px){
+@media  and (min-width:577px) and (max-width:992px){
  .food-container{
-    flex-direction:colum;
- }
+    flex-direction: column;
     
+    
+} 
 }
